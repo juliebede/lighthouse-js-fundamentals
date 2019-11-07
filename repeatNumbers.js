@@ -7,7 +7,7 @@ let repeatNumbers = function(data) {
     for (let n = data[i][1]; n > 0; n--) {
       repeated += value; 
     };
-    if (i < data.length - 1) {
+    if (i < data.length - 1) {    // adds comma if it is not the last element
       repeated += ', ';
     }
   }
