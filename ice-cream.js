@@ -8,4 +8,4 @@ newIceCreamFlavors.push('root beer');
 console.log(newIceCreamFlavors);
 
 console.log(newIceCreamFlavors[0]);
-console.log(newIceCreamFlavors[-1]);
+console.log(newIceCreamFlavors[newIceCreamFlavors.length - 1]);
